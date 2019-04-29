@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9702c474-bb87-4d1c-8cc0-cd97d2c7a8e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chatserver/src/com_muc/ServerWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatserver/com_muc/ServerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chatserver/com_muc/ServerMain.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,12 +21,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="420">
+              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#807#1019#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chatserver/src/com_muc/ServerWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,6 +63,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java" />
+        <option value="$PROJECT_DIR$/chatserver/src/com_muc/ServerWorker.java" />
       </list>
     </option>
   </component>
@@ -66,7 +77,9 @@
     <option name="width" value="1456" />
     <option name="height" value="1159" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -176,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556562128656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial update&#10;First functional telnet + putty&#10;MultiThreading">
+      <created>1556563443185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556563443185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial update&#10;First functional telnet + putty&#10;MultiThreading">
+      <created>1556563684078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556563684078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -189,9 +216,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1456" height="1159" extended-state="4" />
+    <frame x="0" y="-1" width="1920" height="1160" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26028368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19583778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -200,7 +228,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294686" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,7 +238,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3291506" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3291506" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.16170213" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.12166489" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.56736034" />
@@ -221,7 +249,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial update&#10;First functional telnet + putty" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial update&#10;First functional telnet + putty" />
+    <MESSAGE value="initial update&#10;First functional telnet + putty&#10;MultiThreading" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial update&#10;First functional telnet + putty&#10;MultiThreading" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -237,14 +266,22 @@
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java">
+    <entry file="file://$PROJECT_DIR$/chatserver/src/com_muc/ServerWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="495">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#807#1019#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
