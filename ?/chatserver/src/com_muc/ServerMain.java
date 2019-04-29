@@ -18,8 +18,7 @@ public class ServerMain {
                 System.out.println("About to accept client connection...");
                 Socket clientSocket = serverSocket.accept();
                 System.out.println("Accepted connection from " + clientSocket);
-                OutputStream outputStream = clientSocket.getOutputStream();
-                outputStream.write(("Hello World \n").getBytes());
+
                 Thread t = new Thread() {
 
                     public void run() {
@@ -43,6 +42,7 @@ public class ServerMain {
     private static void handleClientSocket(Socket clientSocket) throws IOException, InterruptedException {
         for(int i=0; i<10; i++) {
             OutputStream outputStream = clientSocket.getOutputStream();
+            outputStream.write(("Hello World \n").getBytes());
             outputStream.write(("Time now is " + new Date() + "\n").getBytes());
             Thread.sleep(1000);
         }
