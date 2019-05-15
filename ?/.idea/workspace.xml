@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9702c474-bb87-4d1c-8cc0-cd97d2c7a8e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chatclient/src/com_muc/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatclient/src/com_muc/UserStatusListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatserver/src/com_muc/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatclient/src/com_muc/MessageListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatserver/chatserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/chatserver.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatserver/src/com_muc/ServerWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/com_muc/ServerWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/chatserver/com_muc/ServerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chatserver/com_muc/ServerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatclient/src/com_muc/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/com_muc/ChatClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="210">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,36 +46,43 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatserver/src/com_muc/ServerWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
+            <state relative-caret-position="930">
               <caret line="66" column="16" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2361#2362#0" expanded="true" />
-                <element signature="e#2389#2390#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chatclient/src/com_muc/ChatClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3662#3663#0" expanded="true" />
+                <element signature="e#3711#3712#0" expanded="true" />
+                <element signature="e#3783#3784#0" expanded="true" />
+                <element signature="e#3835#3836#0" expanded="true" />
+                <element signature="e#4572#4573#0" expanded="true" />
+                <element signature="e#4603#4604#0" expanded="true" />
+                <element signature="e#4672#4673#0" expanded="true" />
+                <element signature="e#4703#4704#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chatclient/src/com_muc/ChatClient.java">
+        <entry file="file://$PROJECT_DIR$/chatclient/src/com_muc/MessageListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="79" column="60" selection-start-line="79" selection-start-column="60" selection-end-line="79" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1917#2024#0" expanded="true" />
-                <element signature="e#2023#2024#0" expanded="true" />
-                <element signature="e#3093#3094#0" expanded="true" />
-                <element signature="e#3217#3218#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -118,8 +120,9 @@
         <option value="$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java" />
         <option value="$PROJECT_DIR$/chatserver/src/com_muc/Server.java" />
         <option value="$PROJECT_DIR$/chatclient/src/com_muc/UserStatusListener.java" />
-        <option value="$PROJECT_DIR$/chatclient/src/com_muc/ChatClient.java" />
         <option value="$PROJECT_DIR$/chatserver/src/com_muc/ServerWorker.java" />
+        <option value="$PROJECT_DIR$/chatclient/src/com_muc/MessageListener.java" />
+        <option value="$PROJECT_DIR$/chatclient/src/com_muc/ChatClient.java" />
       </list>
     </option>
   </component>
@@ -132,7 +135,7 @@
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="961" />
     <option name="width" value="959" />
-    <option name="height" value="1159" />
+    <option name="height" value="1160" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -142,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,6 +161,19 @@
               <item name="?" type="b2602c69:ProjectViewProjectNode" />
               <item name="?" type="462c0819:PsiDirectoryNode" />
               <item name="chatclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="?" type="b2602c69:ProjectViewProjectNode" />
+              <item name="?" type="462c0819:PsiDirectoryNode" />
+              <item name="chatclient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="?" type="b2602c69:ProjectViewProjectNode" />
+              <item name="?" type="462c0819:PsiDirectoryNode" />
+              <item name="chatclient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com_muc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="?" type="b2602c69:ProjectViewProjectNode" />
@@ -187,6 +202,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556564560324</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Progress on Creating ChatClient">
+      <created>1557774148893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557774148894</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -289,10 +312,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="0" width="959" height="1159" extended-state="4" />
+    <frame x="961" y="0" width="959" height="1160" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.032858707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40963855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,7 +324,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294686" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +347,8 @@
     <MESSAGE value="initial update&#10;First functional telnet + putty" />
     <MESSAGE value="initial update&#10;First functional telnet + putty&#10;MultiThreading" />
     <MESSAGE value="Refactored remove Statics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored remove Statics" />
+    <MESSAGE value="Progress on Creating ChatClient" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress on Creating ChatClient" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -337,12 +361,9 @@
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/chatserver/src/com_muc/ServerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="210">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -364,6 +385,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chatserver/src/com_muc/ServerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chatclient/src/com_muc/UserStatusListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -371,32 +402,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatclient/src/com_muc/ChatClient.java">
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatclient/src/com_muc/MessageListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="79" column="60" selection-start-line="79" selection-start-column="60" selection-end-line="79" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1917#2024#0" expanded="true" />
-            <element signature="e#2023#2024#0" expanded="true" />
-            <element signature="e#3093#3094#0" expanded="true" />
-            <element signature="e#3217#3218#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatserver/src/com_muc/ServerWorker.java">
+    <entry file="file://$PROJECT_DIR$/chatclient/src/com_muc/ChatClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="66" column="16" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2361#2362#0" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
+            <element signature="e#3662#3663#0" expanded="true" />
+            <element signature="e#3711#3712#0" expanded="true" />
+            <element signature="e#3783#3784#0" expanded="true" />
+            <element signature="e#3835#3836#0" expanded="true" />
+            <element signature="e#4572#4573#0" expanded="true" />
+            <element signature="e#4603#4604#0" expanded="true" />
+            <element signature="e#4672#4673#0" expanded="true" />
+            <element signature="e#4703#4704#0" expanded="true" />
           </folding>
         </state>
       </provider>
