@@ -50,8 +50,10 @@ public class ServerWorker extends Thread {
                 else if ("login".equalsIgnoreCase(cmd)) {
                     handlelogin(outputStream, tokens);
                 } else if("msg".equalsIgnoreCase(cmd)) {
-                    String[] tokensMsg = StringUtils.split(line, null, 3);
+                    System.out.println("in Msg");
+                    String[] tokensMsg = StringUtils.split(line);
                     handleMessage(tokensMsg);
+                    System.out.println(tokensMsg[2]);
                 } else if ("join".equalsIgnoreCase(cmd)) {
                     handleJoin(tokens);
                 } else if ("leave".equalsIgnoreCase(cmd)) {

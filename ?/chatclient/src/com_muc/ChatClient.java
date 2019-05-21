@@ -60,12 +60,12 @@ public class ChatClient {
         serverOut.write(cmd.getBytes());
     }
 
-    private void logoff() throws IOException {
+    public void logoff() throws IOException {
         String cmd = "logoff\n";
         serverOut.write(cmd.getBytes());
     }
 
-    private boolean login(String login, String password) throws IOException {
+    public boolean login(String login, String password) throws IOException {
         String cmd = "login" + login + "" + password + "\n";
         serverOut.write(cmd.getBytes());
 
@@ -106,6 +106,7 @@ public class ChatClient {
                     } else if ("offline".equalsIgnoreCase(cmd)) {
                        handleOffline(tokens);
                     } else if ("msg".equalsIgnoreCase(cmd)) {
+                        System.out.println("in Msg");
                         String[] tokensMsg = StringUtils.split(line, null, 3);
                         handleMessage(tokensMsg);
                     }
@@ -126,6 +127,7 @@ public class ChatClient {
         String msgBody = tokensMsg[2];
 
         for(MessageListener listener : messageListeners) {
+            System.out.println("in Handle");
             listener.onMessage(login, msgBody) ;
         }
     }
@@ -144,7 +146,7 @@ public class ChatClient {
         }
     }
 
-    private boolean connect() {
+    public boolean connect() {
         try {
             this.socket = new Socket(serverName, serverPort);
             System.out.println("Client port is " + socket.getLocalPort());
@@ -171,6 +173,6 @@ public class ChatClient {
     public void removeMessageListener(MessageListener listener ) {
         messageListeners.remove(listener);
     }
-    public
+
 
 }
