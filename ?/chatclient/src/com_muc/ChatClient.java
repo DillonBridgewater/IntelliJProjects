@@ -55,7 +55,7 @@ public class ChatClient {
             //client.logoff();
         }
     }
-    private void msg(String sendTo, String msgBody) throws IOException {
+    public void msg(String sendTo, String msgBody) throws IOException {
         String cmd = "msg " + sendTo + " " + msgBody + "\n";
         serverOut.write(cmd.getBytes());
     }

@@ -33,12 +33,6 @@ public class ServerWorker extends Thread {
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         String line;
         while ( (line = reader.readLine()) != null) {
-            /**
-             * Download commons.apache .o4rg/proper/commons-lang/download_lang.cgi
-             * extract file
-             * file-projectstructure-add module - browse commons for 3.9jar
-             *
-             */
           String[] tokens = StringUtils.split(line);
 
             if (tokens != null && tokens.length > 0) {

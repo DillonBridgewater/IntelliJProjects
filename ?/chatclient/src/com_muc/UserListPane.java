@@ -58,6 +58,8 @@ public class UserListPane extends JPanel implements UserStatusListener {
 
     }
     public void online(String login) {
+        System.out.println("in login");
+
         userListModel.addElement(login);
     }
 
